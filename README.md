@@ -1,33 +1,35 @@
 # HoloLensFaceAPISample
 
-de:code 2018 AC62�u�ȒP�I�IHoloLens�Ŏn�߂�Cognitive Services�`de:code 2018���ʃo�[�W�����`�v��  
-Face API�p�T���v���R�[�h�ł��B  
-HoloLens�ŉ摜�L���v�`�����擾���AFaceAPI���Ăяo�����Ƃ�\
-�Y���̃��[�U�[�����擾���܂��B  
-�܂��A���炩���ߐݒ肵�Ă������摜URL�����ɃC���[�W�摜���擾���A  
-���[�U�[���Ƌ��ɉ�ʕ\�����܂��B  
+de:code 2018 AC62「簡単！！HoloLensで始めるCognitive Services～de:code 2018特別バージョン～」の  
+Face API用サンプルコードです。  
+HoloLensで画像キャプチャを取得し、FaceAPIを呼び出すことで\
+該当のユーザー情報を取得します。  
+また、あらかじめ設定しておいた画像URLを元にイメージ画像を取得し、  
+ユーザー情報と共に画面表示します。  
 
-## �o�[�W�������
- Unity�F2017.1.2p3  
- MRToolkit�FHoloToolkit-Unity-v1.2017.1.2.  
- VisualStudio�F15.5.4  
+## バージョン情報
+ Unity：2017.1.2p3  
+ MRToolkit：HoloToolkit-Unity-v1.2017.1.2.  
+ VisualStudio：15.5.4  
 
-## �g����
+## 使い方
 
-1.�{PJ���N���[�����AAzure Face API�̃L�[��  
- GetFaceInfo.cs �� FaceAPIKey�ɐݒ肵�Ă��������B  
+1.本PJをクローンし、Azure Face APIのキーを  
+ GetFaceInfo.cs の FaceAPIKeyに設定してください。  
 
-2.Face API�ɓo�^����ۂ�userData�͉��L�̃J���}��؂�ł̒�`�Ƃ��Ă��܂��B  
- ����,����,�C���[�W�摜�擾�pURL  
+2.Face APIに登録する際のuserDataは下記のカンマ区切りでの定義としています。  
+ 所属,肩書,イメージ画像取得用URL  
 
-3.�G�A�^�b�v�ŉ摜�擾�`FaceAPI�̌Ăяo���`�摜�f�[�^�̎擾�ƕ\���܂ł��s���܂��B  
+3.エアタップで画像取得～FaceAPIの呼び出し～画像データの取得と表示までを行います。  
 
-# ���ӓ_
+# 注意点
 
-1.Azure�����Face API���̂̑���A�ݒ�Ɋւ��Ă͖{PJ���ł͐����v���܂���B
+1.AzureおよびFace API自体の操作、設定に関しては本PJ内では説明致しません。
 
-2.�{�R�[�h����JSON�����̂��߂�JSONObject�Ƃ������C�u�������g�p���Ă��܂��B  
- ������͕ʓrDL�̂���Asset�����ւ̔z�u���K�v�ł��B
+2.UWP Capability SettingsのWebcam,Internet Clientは必須です
 
- [Unity�A�Z�b�g�X�g�A](https://assetstore.unity.com/packages/tools/input-management/json-object-710)  
+3.本コード内でJSON処理のためにJSONObjectというライブラリを使用しています。  
+ こちらは別途DLのうえAsset直下への配置が必要です。
+
+ [Unityアセットストア](https://assetstore.unity.com/packages/tools/input-management/json-object-710)  
  [Github](https://github.com/mtschoen/JSONObject)
