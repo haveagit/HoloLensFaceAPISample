@@ -14,8 +14,8 @@ HoloLensで画像キャプチャを取得し、FaceAPIを呼び出すことで\
 
 ## 使い方
 
-1.本PJをクローンし、Azure Face APIのキーを  
- GetFaceInfo.cs の FaceAPIKeyに設定してください。  
+1.本PJをクローンし、Azure Face APIのキー、グループID、regionを 
+ GetFaceInfo.cs の FaceAPIKeyに設定してください。  
 
 2.Face APIに登録する際のuserDataは下記のカンマ区切りでの定義としています。  
  所属,肩書,イメージ画像取得用URL  
