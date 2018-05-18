@@ -567,7 +567,7 @@ Prefab:
     - target: {fileID: 114785954753519060, guid: f472f54522e8e184592cd7cd94f7e212,
         type: 2}
       propertyPath: m_Text
-      value: Preparing...
+      value: Please Air Tap...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f472f54522e8e184592cd7cd94f7e212, type: 2}
