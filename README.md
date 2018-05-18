@@ -33,3 +33,6 @@ HoloLensで画像キャプチャを取得し、FaceAPIを呼び出すことで\
 
  [Unityアセットストア](https://assetstore.unity.com/packages/tools/input-management/json-object-710)  
  [Github](https://github.com/mtschoen/JSONObject)
+
+# 問い合わせ
+twitter [@morio36](https://twitter.com/morio36)
