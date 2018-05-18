@@ -22,7 +22,7 @@ HoloLensで画像キャプチャを取得し、FaceAPIを呼び出すことで\
 
 3.エアタップで画像取得～FaceAPIの呼び出し～画像データの取得と表示までを行います。  
 
-# 注意点
+## 注意点
 
 1.AzureおよびFace API自体の操作、設定に関しては本PJ内では説明致しません。
 
@@ -34,5 +34,5 @@ HoloLensで画像キャプチャを取得し、FaceAPIを呼び出すことで\
  [Unityアセットストア](https://assetstore.unity.com/packages/tools/input-management/json-object-710)  
  [Github](https://github.com/mtschoen/JSONObject)
 
-# 問い合わせ
+## 問い合わせ
 twitter [@morio36](https://twitter.com/morio36)
